@@ -1,0 +1,30 @@
+body {
+    background-color: #0a0a0a;
+    color: #33ff00; /* Green text color */
+    font-family: "Courier New", Courier, monospace;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#terminal {
+    padding: 20px;
+    height: 100%;
+}
+
+#prompt {
+    display: inline; /* Keeps the prompt always visible and inline */
+    color: #33ff00;  /* Green color for prompt */
+}
+
+#output {
+
+    display: inline-block; /* Makes the output stay on the same line */
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    margin-left: 5px; /* Slight spacing after the prompt */
+    color: #FFFFFF;
+    font-size: 17px;
+
+}
